@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh "kubectl get pods --all-namepaces"
+                sh "kubectl get pods --all-namespaces"
             }
         }
     }
